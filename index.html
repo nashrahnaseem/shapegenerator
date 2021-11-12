@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box-Generator</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js" type="module"></script>
+</head>
+
+<body>
+    <div id="input">
+        <h1>Shape Generator</h1>
+        <br><br>
+        <p>Select a shape & enter no of shapes</p>
+        <br>
+        <div>
+            <input type="radio" name="choice" value="circle" id="circle" checked> Circle
+            <input type="radio" name="choice" value="square" id="square"> Square
+            <input type="radio" name="choice" value="rectangle" id="rectangle"> Rectangle
+        </div>
+        <br>
+        <div>
+            <input type="text" id="number" name="shape">
+            <button id="button">Generate</button>
+        </div>
+    </div>
+    <div class="container">
+        <div class="box" id="box"></div>
+    </div>
+</body>
+
+</html>
